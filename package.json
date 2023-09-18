@@ -1,0 +1,47 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "pnpm -C play dev",
+    "build": "gulp -f build/gulpfile.ts",
+    "docs:build": "pnpm -C docs docs:build"
+  },
+  "keywords": [],
+  "author": "zhaoxiangbing",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.4",
+    "@rollup/plugin-node-resolve": "^15.2.1",
+    "@types/gulp": "^4.0.13",
+    "@types/gulp-autoprefixer": "^0.0.34",
+    "@types/gulp-clean-css": "^4.3.1",
+    "@types/gulp-sass": "^5.0.1",
+    "@types/sass": "^1.45.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "@vue/compiler-sfc": "^3.3.4",
+    "@vue/eslint-config-typescript": "^12.0.0",
+    "eslint": "^8.49.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "fast-glob": "^3.3.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-typescript": "6.0.0-alpha.1",
+    "rollup": "^3.29.2",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "rollup-plugin-vue": "^6.0.0",
+    "sass": "^1.66.1",
+    "sucrase": "^3.34.0",
+    "ts-morph": "^19.0.0",
+    "typescript": "^5.2.2",
+    "unplugin-vue-define-options": "0.12.2",
+    "vite": "^4.4.9",
+    "vue": "^3.2.36"
+  },
+  "dependencies": {
+    "@smart-design/components": "workspace:^1.0.0",
+    "@smart-design/theme-chalk": "workspace:^1.0.0",
+    "@smart-design/utils": "workspace:^1.0.0"
+  }
+}
