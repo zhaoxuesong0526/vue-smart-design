@@ -18,7 +18,7 @@ destination_dir="docs/dist"
 
 cp -r "$source_dir" "$destination_dir"
 
-rm -rf source_dir
+rm -rf "$source_dir"
 
 # 提交打包静态网站到 gh-pages 分支
 # git init
